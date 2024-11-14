@@ -62,3 +62,16 @@ int main() {
 - Si el valor devuelto por fork() es mayor que 0, significa que estamos en el proceso padre. En este caso, escribimos en la memoria compartida, esperamos a que el proceso hijo termine y luego liberamos la memoria.
 
 Espero que esta explicación te ayude a entender mejor el código. Si tienes más preguntas, no dudes en hacerlas.
+
+# Solucion
+
+Cambiar el toolchain para usar WSL con una distribucion de Linux
+
+En mi caso la distribucion que uso es Kali Linux
+
+Instalo las dependencias de c
+
+```bash
+sudo apt update
+sudo apt install build-essential cmake gdb
+```
